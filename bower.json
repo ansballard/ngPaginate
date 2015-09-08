@@ -1,6 +1,6 @@
 {
     "name": "ansballard-ngPaginate",
-    "main": "ngPaginate..minjs",
+    "main": "ngPaginate.js",
     "version": "1.0.0",
     "homepage": "https://github.com/ansballard/ngPaginate",
     "authors": [

@@ -8,7 +8,7 @@
     "pagination",
     "angular"
   ],
-  "main": "ngPaginate.min.js",
+  "main": "ngPaginate.js",
   "directories": {
     "test": "tests"
   },
@@ -33,6 +33,6 @@
     "gulp-eslint": "^1.0.0",
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "^1.5.2",
-    "gulp-uglify": "^1.2.0",
+    "gulp-uglify": "^1.2.0"
   }
 }

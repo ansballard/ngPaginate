@@ -42,7 +42,16 @@ gulp.task("build", ["createTemplates"], function() {
   ;
 });
 
-gulp.task("default", ["build"]);
+gulp.task("unminned", ["createTemplates"], function() {
+  "use strict";
+  return gulp.src(toBuild)
+    .pipe(plumber())
+    .pipe(concat("ngPaginate.js"))
+    .pipe(gulp.dest("./"))
+  ;
+});
+
+gulp.task("default", ["build", "unminned"]);
 
 gulp.task("watch", ["default"], function() {
   "use strict";
