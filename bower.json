@@ -1,0 +1,35 @@
+{
+    "name": "ansballard-ngPaginate",
+    "main": "ngPaginate..minjs",
+    "version": "1.0.0",
+    "homepage": "https://github.com/ansballard/ngPaginate",
+    "authors": [
+        "Aaron Ballard <ans.ballard@gmail.com>"
+    ],
+    "description": "An AngularJS wrapper for @ansballard/paginate",
+    "moduleType": [
+        "globals",
+        "node",
+        "amd"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ansballard/ngPaginate.git"
+    },
+    "keywords": [
+        "pagination",
+        "angular"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "templates",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+      "ansballard-paginate": "~1.1.4",
+      "angular": "~1.4.5"
+    }
+}

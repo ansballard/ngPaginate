@@ -1,0 +1,38 @@
+{
+  "name": "@ansballard/ngPaginate",
+  "ansballard-bowername": "ansballard-ngPaginate",
+  "homepage": "https://github.com/ansballard/ngPaginate",
+  "version": "1.0.0",
+  "description": "An AngularJS wrapper for @ansballard/paginate",
+  "keywords": [
+    "pagination",
+    "angular"
+  ],
+  "main": "ngPaginate.min.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansballard/ngPaginate.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start"
+  },
+  "author": "Aaron Ballard <ans.ballard@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ansballard/paginate": "~1.1.4",
+    "angular": "~1.4.5"
+  },
+  "devDependencies": {
+    "del": "^2.0.1",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+  }
+}

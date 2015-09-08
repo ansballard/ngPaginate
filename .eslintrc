@@ -1,0 +1,13 @@
+{
+  "globals": {
+    "angular": true,
+    "paginate": true,
+    "console": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-use-before-define": 0,
+    "no-undef": 0,
+    "no-unused-vars": 0
+  }
+}
